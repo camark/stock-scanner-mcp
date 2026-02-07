@@ -1,0 +1,7 @@
+.env
+
+# 忽略所有位置的 temp 文件夹
+**/__pycache__/
+
+#忽略logs文件
+**/logs/
