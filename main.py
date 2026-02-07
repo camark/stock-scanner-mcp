@@ -508,6 +508,7 @@ mcp.setup_server()
 if __name__ == "__main__":
     import uvicorn
     
+    print("mcp sse接口:/mcp \n")
     # 获取端口
     port = int(os.getenv("PORT", 8000))
     host = os.getenv("HOST", "0.0.0.0")
